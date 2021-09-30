@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://<your-domain-here>/journeybuilder/execute",
+          "url": "https://ziplink.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,7 +33,7 @@
     "configurationArguments": {
       "applicationExtensionKey": "__application_key_from_appcenter_here__",
       "save": {
-        "url": "https://<your-domain-here>/journeybuilder/save",
+        "url": "https://ziplink.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
@@ -43,12 +43,12 @@
         "useJwt": true
        },
       "stop": {
-        "url": "https://<your-domain-here>/journeybuilder/stop",
+        "url": "https://ziplink.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://<your-domain-here>/journeybuilder/validate",
+        "url": "https://ziplink.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
